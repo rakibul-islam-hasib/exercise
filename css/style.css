@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
 }
+
 /* nav part start here */
-nav
-{
+nav {
     height: 100px;
     width: 100%;
     display: flex;
@@ -11,24 +11,24 @@ nav
     justify-content: space-around;
     align-items: center;
 }
-nav ul
-{
+
+nav ul {
     list-style: none;
     display: flex;
     font-size: 1.2em;
 }
-nav li
-{
+
+nav li {
     margin-right: 15px;
 }
-nav .logo
-{
+
+nav .logo {
     font-size: 2em;
 }
+
 /* nav end here */
 /* top part */
-.top
-{
+.top {
     /* display: grid;
     grid-template-columns: repeat(2,1fr); */
     display: flex;
@@ -36,18 +36,18 @@ nav .logo
     align-items: center;
     gap: 10%;
 }
-.top_img_content h2
-{
+
+.top_img_content h2 {
     font-size: 6vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.top_img_content p
-{
+
+.top_img_content p {
     font-size: 2vw;
 }
+
 /* top button part start  */
-.top_btn
-{
+.top_btn {
     background-color: black;
     color: #fff;
     height: 7.5vh;
@@ -57,8 +57,8 @@ nav .logo
     font-size: 0.9em;
     font-weight: 700;
 }
-.top_btn_2
-{
+
+.top_btn_2 {
     background-color: rgb(228, 221, 221);
     color: black;
     text-transform: capitalize;
@@ -68,9 +68,61 @@ nav .logo
 }
 
 /* happy clients part start */
-.happy_clients
-{
+.happy_clients {
     height: 30vh;
     width: 100%;
     background-color: black;
+    color: #fff;
+    display: flex;
+    /* grid-template-columns: repeat(3,1fr); */
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* experience part  */
+.experience {
+    border-right: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15%;
+}
+
+.experience h1 {
+    font-size: 3em;
+}
+
+.experience p {
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
+
+/* clients part  */
+.clients {
+    border-right: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15%;
+}
+
+.clients h1 {
+    font-size: 3em;
+
+}
+
+.clients p {
+    font-size: 1.2em;
+}
+/* rating part  */
+.rating h1
+{
+    font-size: 3em;
+}
+.rating p 
+{
+    font-size: 1.2em;
+    text-transform: capitalize;
 }
