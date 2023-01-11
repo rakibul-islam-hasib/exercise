@@ -126,3 +126,29 @@ nav .logo {
     font-size: 1.2em;
     text-transform: capitalize;
 }
+/* content 1 part  */
+.content_1
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+/* content 1 min content  */
+.min_content_1
+{
+    margin-left: 6vw;
+}
+.min_content_1 h3
+{
+    margin-top: 4%;
+    margin-bottom: 3vh;
+    font-family: 'Courier New', Courier, monospace ;
+}
+.min_content_1 i
+{
+    color: red;
+}
+.min_content_1 h1
+{
+    font-size: 3em;
+    font-family: sans-serif;
+}
