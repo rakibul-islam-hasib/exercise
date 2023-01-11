@@ -152,3 +152,34 @@ nav .logo {
     font-size: 3em;
     font-family: sans-serif;
 }
+/* min content 2 part */
+.min_content_2
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3%;
+    margin-top: 5vh;
+}
+.card h1
+{
+    background-color: rgb(233, 229, 229);
+    height: 10vh;
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px rgba(201, 195, 195, 0.253);
+    border-radius: 20px;
+}
+.card i
+{
+    color: #fff;
+    font-size: 2em;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+}
+.img_content_2 img
+{
+    width: 100%;
+}
