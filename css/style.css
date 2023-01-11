@@ -26,11 +26,51 @@ nav .logo
     font-size: 2em;
 }
 /* nav end here */
-/* hero part start here */
-.top_img_card
+/* top part */
+.top
 {
-    width: 250px;
-    height: 350px;
-    background-color: rgb(3, 16, 27);
-    transform: rotateX('angle');
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10%;
+}
+.top_img_content h2
+{
+    font-size: 6vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.top_img_content p
+{
+    font-size: 2vw;
+}
+/* top button part start  */
+.top_btn
+{
+    background-color: black;
+    color: #fff;
+    height: 7.5vh;
+    width: 20vw;
+    border-radius: 30px;
+    margin-top: 7vh;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+.top_btn_2
+{
+    background-color: rgb(228, 221, 221);
+    color: black;
+    text-transform: capitalize;
+    height: 7.5vh;
+    width: 20vw;
+    border-radius: 30px;
+}
+
+/* happy clients part start */
+.happy_clients
+{
+    height: 30vh;
+    width: 100%;
+    background-color: black;
 }
