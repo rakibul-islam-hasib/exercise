@@ -27,8 +27,10 @@ nav .logo
 }
 /* nav end here */
 /* hero part start here */
-.hero_img_card
+.top_img_card
 {
-    width: 200px;
+    width: 250px;
     height: 350px;
+    background-color: rgb(3, 16, 27);
+    transform: rotateX('angle');
 }
