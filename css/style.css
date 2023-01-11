@@ -28,3 +28,7 @@ nav .logo
 /* nav end here */
 /* hero part start here */
 .hero_img_card
+{
+    width: 200px;
+    height: 350px;
+}
