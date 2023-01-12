@@ -183,3 +183,79 @@ nav .logo {
 {
     width: 100%;
 }
+
+/* body post part start here  */
+.image_side img
+{
+    width: 100%;
+}
+.body_post_1
+{   
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20vw;
+}
+.text_side
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+.text_side h2
+{
+    font-size: 2em;
+    font-family: sans-serif;
+}
+.text_side p
+{
+    font-size: 1.1em;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+.text_side .bold_pg
+{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.body-btn
+{
+    margin-top: 5vh;
+}
+/* Footer part start here  */
+.footer_all_section
+{
+    width: 100%;
+    background-color: black;
+    border-radius: 30px;
+}
+.footer_all
+{
+    margin-top: 20vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15vw;
+}
+.footer_text
+{
+    color: #fff;
+    padding: 10%;
+}
+.message_us 
+{
+    display: flex;
+    flex-direction: column;
+}
+.message_us h2
+{
+    color: #fff;
+    font-size: 2em;
+    padding: 10%;
+}
+.message_us input[type="email"],input[type="text"] , .text_message
+{
+    height: 6vh;
+    margin-right: 10vw;
+    border-radius: 20px;
+    border: 0;
+}
