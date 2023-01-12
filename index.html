@@ -30,8 +30,10 @@
                 <h2>Highest Rated Nutritional Coach In Town</h2>
                 <p>Scaling/zooming animations are problematic for accessibility, as they are a common trigger for
                     certain types of migraine. If you need to include such animations on your website, </p>
-                <button class="top_btn">Become a Contributor</button>
-                <button class="top_btn_2">sign up for our weekly update</button>
+                <div class="btn_container">
+                    <button class="top_btn">Become a Contributor</button>
+                    <button class="top_btn_2">sign up for our weekly update</button>
+                </div>
             </div>
         </section>
     </header>
@@ -112,7 +114,9 @@
                     <h2>Your Message</h2>
                     <input type="text" class="footer_contact" placeholder="Your Name" required>
                     <input type="email" required placeholder="Your Email" class="footer_contact">
-                    <textarea class="text_message" id="" cols="30" rows="10" required></textarea>
+                    <textarea class="text_message" id="" cols="30" rows="10" placeholder="Your Message"
+                        required></textarea>
+                    <input type="submit" value="Send" class="send">
                 </div>
             </div>
         </section>
